@@ -445,17 +445,17 @@ textarea:focus {
 
 .header_site .left {
     width: 270px;
-    outline: 1px solid red;
+    /*outline: 1px solid red;*/
 }
 
 .header_site .center {
     width: calc(100% - 580px);
-    outline: 1px solid red;
+    /*outline: 1px solid red;*/
 }
 
 .header_site .right {
     width: 310px;
-    outline: 1px solid red;
+    /*outline: 1px solid red;*/
 }
 
 .logo {
