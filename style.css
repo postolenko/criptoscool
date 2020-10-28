@@ -302,7 +302,6 @@ textarea:focus {
     max-width: 1350px;
     margin: 0 auto;
     padding: 0 25px;
-    outline: 1px solid red;
 }
 
 .overflow_wrapp {
