@@ -1,0 +1,30 @@
+<svg 
+ xmlns="http://www.w3.org/2000/svg"
+ xmlns:xlink="http://www.w3.org/1999/xlink"
+ width="706.325px" height="112.325px">
+<defs>
+<filter filterUnits="userSpaceOnUse" id="Filter_0" x="-0.77499999999998px" y="-0.77500000000009px" width="707.1px" height="113.1px"  >
+    <feOffset in="SourceAlpha" dx="0" dy="6" />
+    <feGaussianBlur result="blurOut" stdDeviation="3.162" />
+    <feFlood flood-color="rgb(169, 168, 185)" result="floodOut" />
+    <feComposite operator="atop" in="floodOut" in2="blurOut" />
+    <feComponentTransfer><feFuncA type="linear" slope="0.53"/></feComponentTransfer>
+    <feMerge>
+    <feMergeNode/>
+    <feMergeNode in="SourceGraphic"/>
+  </feMerge>
+</filter>
+<linearGradient id="PSgrad_0" x1="88.295%" x2="0%" y1="46.947%" y2="0%">
+  <stop offset="0%" stop-color="rgb(135,22,175)" stop-opacity="1" />
+  <stop offset="36%" stop-color="rgb(118,26,182)" stop-opacity="1" />
+  <stop offset="98%" stop-color="rgb(100,30,189)" stop-opacity="1" />
+</linearGradient>
+
+</defs>
+<g filter="url(#Filter_0)">
+<path fill-rule="evenodd"  fill="none"
+ d="M55.275,3.775 L649.275,3.775 C674.404,3.775 694.775,24.146 694.775,49.275 C694.775,74.404 674.404,94.775 649.275,94.775 L55.275,94.775 C30.146,94.775 9.775,74.404 9.775,49.275 C9.775,24.146 30.146,3.775 55.275,3.775 Z"/>
+</g>
+<path stroke="rgb(196, 196, 196)" stroke-width="1.55px" stroke-dasharray="7.75, 6.2" stroke-linecap="butt" stroke-linejoin="miter" fill="url(#PSgrad_0)"
+ d="M55.275,3.775 L649.275,3.775 C674.404,3.775 694.775,24.146 694.775,49.275 C694.775,74.404 674.404,94.775 649.275,94.775 L55.275,94.775 C30.146,94.775 9.775,74.404 9.775,49.275 C9.775,24.146 30.146,3.775 55.275,3.775 Z"/>
+</svg>
