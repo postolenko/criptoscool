@@ -1,1 +1,1 @@
-# http://postolenko.github.io/commentus/index.html
+# http://postolenko.github.io/criptoscool/index.html
