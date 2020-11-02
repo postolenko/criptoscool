@@ -1,3 +1,11 @@
+function getAnimation() {
+  $(".animate").each(function() {
+    if( $(this).offset().top <= $(document).scrollTop() + $(window).height() ) {
+      $(this).addClass("active");
+    }
+  });
+}
+
 var w = window,
 d = document,
 e = d.documentElement,
@@ -7,23 +15,19 @@ bodyWidth = w.innerWidth || e.clientWidth || g.clientWidth;
 
 $(window).load(function() {
 
-
-
 });
 
 $(window).resize(function() {
 
-
-
 });
 
 $(document).scroll(function() {
-
-
-
+  getAnimation();
 });
 
 $(document).ready(function() {
+
+  getAnimation();
 
     if( $(".testimonials_slider").length > 0 ) {
         $(".testimonials_slider").not(".slick-initialized").slick({
