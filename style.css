@@ -3462,6 +3462,7 @@ body.fixed {
 
 .popup_content {
     max-width: 1300px;
+    width: 98%;
     margin: 70px auto 20px auto;
     position: relative;
     z-index: 2;

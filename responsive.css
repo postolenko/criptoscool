@@ -96,6 +96,10 @@ h1 {
     line-height: 60px;
 }
 
+.robo_3 {
+	display: none;
+}
+
 /*-- Header --*/
 
 .header_site .center {
@@ -352,6 +356,13 @@ h2 {
 
 @media only screen and (max-width: 900px) {
 
+.bg_shape_01,
+.bg_shape_02,
+.bg_shape_03,
+.bg_shape_04 {
+	display: none;
+}
+
 /*-- Section 3 --*/
 
 .video_article .col_1 {
@@ -595,6 +606,11 @@ h1 {
 }
 
 /*-- /Footer --*/
+
+.popup_content .close_popup {
+    top: 10px;
+    right: 14px;
+}
 
 }
 
