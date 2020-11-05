@@ -829,7 +829,8 @@ p {
 
 .bg_image {
     left: -9px;
-    top: -84px;
+    top: auto;
+    bottom: 0;
 }
 
 .logo {
