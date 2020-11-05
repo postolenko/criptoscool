@@ -503,7 +503,14 @@ textarea:focus {
     position: absolute;
     top: 0;
     left: 0;
-    z-index: 2;
+    z-index: 10;
+}
+
+.header_absolute.bg {
+    background-color: #fff;
+    -webkit-box-shadow: 0 3px 5px 0 rgba(0,0,0,.3);
+    -moz-box-shadow: 0 3px 5px 0 rgba(0,0,0,.3);
+    box-shadow: 0 3px 5px 0 rgba(0,0,0,.3);
 }
 
 .header_site {
@@ -536,6 +543,13 @@ textarea:focus {
 .logo > div:nth-child(2) {
     width: calc(100% - 145px);
     padding-top: 12px;
+}
+
+.logo > div:nth-child(1) img {
+    display: block;
+    width: auto;
+    height: auto;
+    max-width: 100%;
 }
 
 .logo p {
@@ -966,6 +980,8 @@ textarea:focus {
     text-align: center;
     max-width: 935px;
     margin: 0 auto;
+    z-index: 2;
+    position: relative;
 }
 
 .promo_descript h1 {
@@ -1701,7 +1717,7 @@ textarea:focus {
     width: 82px;
     height: 82px;
     position: absolute;
-    bottom: 0;
+    top: -2px;
     left: -20px;
 }
 
@@ -2263,6 +2279,11 @@ textarea:focus {
     right: 0;
 }
 
+.article_2_descript_inner {
+    position: relative;
+    z-index: 2;
+}
+
 /*-- /Section 9 --*/
 
 /*-- Section 10 --*/
@@ -2274,6 +2295,8 @@ textarea:focus {
 .price_boxes {
     display: flex;
     display: -webkit-flex;
+    -webkit-flex-wrap: wrap;
+    flex-wrap: wrap;
     margin: 27px -13px;
 }
 
@@ -2435,7 +2458,7 @@ textarea:focus {
 }
 
 .white_box {
-    padding: 18px 10px 15px 10px;
+    padding: 18px 10px 33px 10px;
     border-radius: 12px;
     -webkit-border-radius: 12px;
     background-color: rgb(255, 255, 255);
@@ -2548,6 +2571,10 @@ textarea:focus {
 }
 
 .custom_select_title p {
+    white-space: nowrap;
+    overflow: hidden;
+    text-overflow: ellipsis;
+    display: block;
     font-size: 20px;
     line-height: 24px;
     color: #545557;
@@ -2635,7 +2662,9 @@ textarea:focus {
 }
 
 .btn_wrapp_4 {
-    margin: 16px 0;
+    display: inline-block;
+    vertical-align: top;
+    margin: 0 0 7px 250px;
 }
 
 .price_pill {
@@ -2673,6 +2702,8 @@ textarea:focus {
 .share_article > .col_2 {
     width: 44%;
     padding: 10px 0 10px 5px;
+    position: relative;
+    z-index: 2;
 }
 
 .share_descript {
