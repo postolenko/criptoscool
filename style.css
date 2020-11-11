@@ -1540,15 +1540,50 @@ textarea:focus {
     padding: 10px 0 10px 23px;
 }
 
-.coin {
-    display: block;
-}
-
-.btn_wrapp .coin {
+.coin_wrapp {
+    width: 75px;
+    height: 75px;
+    overflow: hidden;
     position: absolute;
     top: 4px;
     left: -1px;
     z-index: 2;
+}
+
+.coin {
+    display: block;
+}
+
+.coin_wrapp .coin {
+    position: relative;
+    left: -80px;
+    transform: rotate(-720deg);
+    -webkit-transform: rotate(-720deg);
+    -webkit-transition-property: left, transform;
+    -webkit-transition-duration: .5s;
+    -webkit-transition-timing-function: ease;
+
+    -moz-transition-property: left, transform;
+    -moz-transition-duration: .5s;
+    -moz-transition-timing-function: ease;
+
+    -ms-transition-property: left, transform;
+    -ms-transition-duration: .5s;
+    -ms-transition-timing-function: ease;
+
+    -o-transition-property: left, transform;
+    -o-transition-duration: .5s;
+    -o-transition-timing-function: ease;
+
+    transition-property: left, transform;
+    transition-duration: .5s;
+    transition-timing-function: ease;
+}
+
+.btn_wrapp:hover .coin_wrapp .coin {
+    transform: rotate(0);
+    -webkit-transform: rotate(0);
+    left: 0;
 }
 
 .purple_pill {
@@ -1871,11 +1906,48 @@ textarea:focus {
     position: relative;
 }
 
-.btn_wrapp_2 img {
+.btn_wrapp_2 .coin_wrapp {
+    width: 75px;
+    height: 75px;
+    overflow: hidden;
     position: absolute;
     top: -7px;
+    left: auto;
     right: -34px;
     z-index: 2;
+}
+
+.btn_wrapp_2 .coin_wrapp img {
+    position: relative;
+    left: auto;
+    right: -80px;
+    transform: rotate(720deg);
+    -webkit-transform: rotate(720deg);
+    -webkit-transition-property: right, transform;
+    -webkit-transition-duration: .5s;
+    -webkit-transition-timing-function: ease;
+
+    -moz-transition-property: right, transform;
+    -moz-transition-duration: .5s;
+    -moz-transition-timing-function: ease;
+
+    -ms-transition-property: right, transform;
+    -ms-transition-duration: .5s;
+    -ms-transition-timing-function: ease;
+
+    -o-transition-property: right, transform;
+    -o-transition-duration: .5s;
+    -o-transition-timing-function: ease;
+
+    transition-property: right, transform;
+    transition-duration: .5s;
+    transition-timing-function: ease;
+}
+
+.btn_wrapp_2:hover .coin_wrapp img {
+    right: 0;
+    transform: rotate(0);
+    -webkit-transform: rotate(0);
 }
 
 .gold_pill {
