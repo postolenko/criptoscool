@@ -901,6 +901,10 @@ p {
 	left: -10px;
 }
 
+.bg_image {
+    display: none;
+}
+
 /*-- /Section 1 --*/
 
 /*-- Section 2 --*/

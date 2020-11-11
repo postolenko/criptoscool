@@ -187,4 +187,7 @@ $(document).ready(function() {
 
     // -------------------
 
+    // $("input[type='email']").inputmask("email");
+    // $("input[type='tel']").inputmask("9(999)-999-99-99");
+
 });
