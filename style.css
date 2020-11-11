@@ -860,6 +860,10 @@ textarea:focus {
     top: -1px;
 }
 
+.resp_tel_wrapp {
+    display: none;
+}
+
 /*-------------------*/
 
 .respmenubtn {
@@ -2885,11 +2889,11 @@ textarea:focus {
     width: 292px;
     position: absolute;
     bottom: -1px;
-    left: 20px;
+    left: -35px;
 }
 
 .form_wrapp .inner {
-    max-width: 640px;
+    max-width: 840px;
     margin: 0 auto;
 }
 
@@ -2909,7 +2913,7 @@ textarea:focus {
     color: #fff;
 }
 
-.two_cols_2 {
+.tree_cols_2 {
     display: flex;
     display: -webkit-flex;
     flex-wrap: wrap;
@@ -2917,9 +2921,20 @@ textarea:focus {
     margin: 0 -12px;
 }
 
-.two_cols_2 > div {
-    width: 50%;
+.tree_cols_2 > div {
+    width: 33.33%;
     padding: 12px;
+}
+
+.mail_2 {
+    display: inline-block;
+    vertical-align: top;
+    width: 20px;
+    height: 19px;
+    background-image: url(img/email.svg);
+    background-repeat: no-repeat;
+    background-size: contain;
+    background-position: center;
 }
 
 .input_wrapp {
@@ -3461,7 +3476,7 @@ body.fixed {
 }
 
 .popup_content {
-    max-width: 1300px;
+    max-width: 1100px;
     width: 98%;
     margin: 70px auto 20px auto;
     position: relative;

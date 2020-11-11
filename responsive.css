@@ -589,6 +589,23 @@ h1 {
 
 /*-- /Section 7 --*/
 
+/*-- Section 14 --*/
+
+.form_wrapp {
+    padding: 29px 25px 35px 25px;
+}
+
+.tree_cols_2 {
+    margin: 0;
+}
+
+.tree_cols_2 > div {
+    width: 100%;
+    padding: 12px 0;
+}
+
+/*-- .Section 14 --*/
+
 /*-- Footer --*/
 
 .footer_top_templ .col:nth-child(1) {
@@ -693,6 +710,25 @@ h2 {
 	display: none !important;
 }
 
+.resp_tel_wrapp {
+    display: block;
+    text-align: right;
+    padding-top: 10px;
+}
+
+.resp_tel_wrapp a {
+    display: inline-block;
+}
+
+.resp_tel_wrapp a i {
+    margin-right: 10px;
+}
+
+.resp_tel {
+    font-size: 15px;
+    line-height: 16px;
+}
+
 /*-- Header --*/
 
 /*-- Section 2 --*/
@@ -702,6 +738,14 @@ h2 {
 }
 
 /*-- /Section 2 --*/
+
+/*-- Section 7 --*/
+
+.sect_7 {
+    display: none;
+}
+
+/*-- /Section 7 --*/
 
 /*-- Section 9 --*/
 
@@ -734,16 +778,6 @@ h2 {
 .form_wrapp .h2_wrapp h2 {
     font-size: 43px;
     line-height: 50px;
-}
-
-.two_cols_2 {
-	display: block;
-    margin: 15px 0;
-}
-
-.two_cols_2 > div {
-    width: 100%;
-    padding: 6px 0px;
 }
 
 /*-- /Section 14 --*/
@@ -813,6 +847,22 @@ p {
     font-size: 18px;
     line-height: 26px;
 }
+
+/*-- Header --*/
+
+.header_site .left {
+    width: 90px;
+}
+
+.header_site .right {
+    width: calc(100% - 90px);
+}
+
+.logo > div:nth-child(2) {
+    display: none;
+}
+
+/*-- /Header --*/
 
 /*-- Section 1 --*/
 
@@ -998,5 +1048,24 @@ p {
 }
 
 /*-- /Section 13 --*/
+
+/*-- Footer --*/
+
+.socials_list {
+    max-width: 370px;
+    margin: 0 auto;
+}
+
+.socials_list li {
+    width: 25%;
+    text-align: center;
+}
+
+.socials_list li a {
+    display: inline-block;
+    vertical-align: top;
+}
+
+/*-- /Footer --*/
 	
 }
