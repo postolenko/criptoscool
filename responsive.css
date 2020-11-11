@@ -858,7 +858,7 @@ p {
     width: calc(100% - 90px);
 }
 
-.logo > div:nth-child(2) {
+.header_site .logo > div:nth-child(2) {
     display: none;
 }
 
