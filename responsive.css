@@ -848,6 +848,10 @@ p {
     line-height: 26px;
 }
 
+.transparent_pill_2 {
+    padding: 16px 20px 19px 20px;
+}
+
 /*-- Header --*/
 
 .header_site .left {
@@ -946,6 +950,14 @@ p {
 }
 
 /*-- /Section 4 --*/
+
+/*-- Section 5 --*/
+
+.thmub_2 p {
+    font-size: 15px;
+}
+
+/*-- /Section 5 --*/
 
 /*-- Section 8 --*/
 
