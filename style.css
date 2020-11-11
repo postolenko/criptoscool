@@ -69,6 +69,19 @@
     /*font-display: swap;*/
 }
 
+@font-face {
+    font-family: "Gilroy";
+    src: url("fonts/Gilroy-Bold.eot");
+    src: url("fonts/Gilroy-Bold.eot?#iefix") format("embedded-opentype"),
+        url("fonts/Gilroy-Bold.woff2") format("woff2"),
+        url("fonts/Gilroy-Bold.woff") format("woff"),
+        url("fonts/Gilroy-Bold.ttf") format("truetype"),
+        url("fonts/Gilroy-Bold.svg#Gilroy-Bold") format("svg");
+    font-weight: bold;
+    font-style: normal;
+    /*font-display: swap;*/
+}
+
 /*-------------------------------------------*/
 /* BASIC SETUP */
 /*-------------------------------------------*/
@@ -2442,6 +2455,12 @@ textarea:focus {
     line-height: 42px;
     font-weight: 900;
     color: #ed9400;
+}
+
+.rub {
+    font-family: "Gilroy";
+    font-size: 40px;
+    line-height: 42px;
 }
 
 .light_pill_wrapp {
