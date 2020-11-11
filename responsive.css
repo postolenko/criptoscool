@@ -34,6 +34,10 @@ h2 {
     padding: 10px 0 10px 20px;
 }
 
+.btn_wrapp_4 {
+    margin: 0 0 7px 227px;
+}
+
 /*-- /Section 11 --*/
 
 }
@@ -347,7 +351,7 @@ h2 {
 }
 
 .btn_wrapp_4 {
-    margin: 0 0 7px 246px;
+    margin: 0 0 7px 227px;
 }
 
 /*-- /Section 11 --*/
@@ -687,7 +691,7 @@ h1 {
 }
 
 .btn_wrapp_4 {
-    margin: 0;
+    margin: 0 0 0 -20px;
 }
 
 /*-- Section 11 --*/
