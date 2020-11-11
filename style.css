@@ -292,22 +292,6 @@ a:active {
     -webkit-tap-highlight-color: transparent;
 }
 
-input {
-
-}
-
-input:focus {
-
-}
-
-textarea {
-
-}
-
-textarea:focus {
-
-}
-
 /*-------------------------------------------*/
 /* ----- REUSABLE COMPONENTS ------ */
 /*-------------------------------------------*/
@@ -3372,7 +3356,6 @@ footer {
 .grey_link:hover {
     border-bottom: 1px solid transparent;
 }
-
 
 /*-- Animation --*/
 
